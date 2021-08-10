@@ -1,0 +1,49 @@
+*{margin: 0px; box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+p{font-weight: 200; text-rendering: optimizeSpeed; word-spacing: 2px;}
+a{text-decoration: none; font-weight: 500; color: rgb(101, 255, 204); transition: 0.3s;}
+a:hover{text-decoration: underline; color: rgb(182, 255, 231);}
+
+body{  
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;
+
+    -webkit-animation: fadein 1.5s; 
+    -moz-animation: fadein 1.5s; 
+    -ms-animation: fadein 1.5s; 
+    -o-animation: fadein 1.5s; 
+    animation: fadein 1.5s;
+    
+    background-color: rgb(31, 31, 45);
+    color: rgb(255, 255, 255);
+    font-family: 'Trebuchet MS';
+    transition: all 0.3s;
+    text-align: center;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    }
+    
+    @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    }
+    
+    @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    }
+    
+    @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    }
+    
+    @-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    }
