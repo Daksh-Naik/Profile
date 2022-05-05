@@ -2,7 +2,10 @@
 html{scroll-behavior: smooth;}
 p{font-weight: 200; text-rendering: optimizeSpeed; word-spacing: 2px;}
 a{text-decoration: none; font-weight: 600; color: rgb(101, 255, 204); transition: 0.3s;}
-a:hover{text-decoration: underline; color: rgb(182, 255, 231);}
+a:hover{text-decoration: 1px underline; color: rgb(182, 255, 231);}
+::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0); width: 2px;}
+::-webkit-scrollbar-button{background-color:#ffa500;}
+::-webkit-scrollbar-thumb{background-color: #ffa500;}
 
 body{  
     -webkit-user-select: none; /* Safari */
@@ -15,9 +18,9 @@ body{
     -o-animation: fadein 1.5s; 
     animation: fadein 1.5s;
     
-    background-color: rgb(31, 31, 45);
+    background-color: #1f1f2d;
     color: rgb(255, 255, 255);
-    font-family: 'Trebuchet MS';
+    font-family: 'Montserrat', sans-serif;
     transition: all 0.3s;
     text-align: center;
 }
